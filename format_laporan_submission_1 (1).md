@@ -58,9 +58,13 @@ Informasi mengenai dataset:
 
 1. Label Encoding
 
-![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/label%20encoder.PNG "Logo Title Text 1")
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/label%20encoder.PNG "LB1")
+![alt_text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/LabelResult.PNG "LB2")
 
 2. Data Splitting
+
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Data%20Split.PNG "DS1")
+![alt_text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/DataResult.PNG "DS2")
 
 ## Modeling
 1. KNN (K-Nearest Neighboor)
