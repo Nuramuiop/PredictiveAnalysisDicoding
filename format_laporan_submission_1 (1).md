@@ -57,6 +57,9 @@ Informasi mengenai dataset:
 ## Data Preparation
 
 1. Label Encoding
+
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/label%20encoder.PNG "Logo Title Text 1")
+
 2. Data Splitting
 
 ## Modeling
