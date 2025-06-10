@@ -78,9 +78,12 @@ bekerja dengan mencari hyperplane yang optimal untuk memisahkan data ke dalam ke
 
 Memanggil library yang berisi algritma KNN, Random Forest, dan AdaBoost
 
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Lib.PNG "lib")
+
 Memasukkan data pada model atau algoritma yang telah dipanggi
 
-
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Call1.PNG "c1")
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Call2.PNG "c2")
 
 ## Evaluation
 Metrik evaluasi yang digunakan adalah Accuracy, Precission, Recall, F1-Score
@@ -99,6 +102,11 @@ Recall adalah metrik yang mengukur seberapa baik model dapat menangkap semua con
 4. F1-Score
 
 F1-Score adalah metrik yang menggabungkan presisi dan recall menjadi satu nilai tunggal yang mempertimbangkan keduanya
+
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Call1.PNG "c1")
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Call2.PNG "c2")
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/ResCall.PNG "ResC")
+
 
 **Hasil Model**
 1. KNN
