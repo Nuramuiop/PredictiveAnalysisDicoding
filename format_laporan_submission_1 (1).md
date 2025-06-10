@@ -85,15 +85,22 @@ Memasukkan data pada model atau algoritma yang telah dipanggi
 ## Evaluation
 Metrik evaluasi yang digunakan adalah Accuracy, Precission, Recall, F1-Score
 1. Akurasi
+
 Akurasi ag digunakan untuk mengukur kinerja model klasifikasi
+
 2. Precission
+
 Precision mengukur seberapa baik model menghindari positif palsu
+
 3. Recall
+
 Recall adalah metrik yang mengukur seberapa baik model dapat menangkap semua contoh positif
+
 4. F1-Score
+
 F1-Score adalah metrik yang menggabungkan presisi dan recall menjadi satu nilai tunggal yang mempertimbangkan keduanya
 
-Hasil Model
+**Hasil Model**
 1. KNN
 2. Random Forest
 3. Decision Tree
