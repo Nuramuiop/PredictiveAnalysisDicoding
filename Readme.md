@@ -13,7 +13,7 @@ Serangan jantung merupakan penyakit serius, setiap orang perlu memperhatikan tan
 
 Menjelaskan pernyataan masalah latar belakang:
 - Bagaimana cara mengimplementasikan machine learning dalam mengklasifikasikan potensi dari seseorang mengalami serangan jantung
-- 
+- Bagaimana membandingkan kinerja berbagai model baseline dalam mendeteksi potensi serangan jantung?
 
 
 ### Goals
@@ -21,6 +21,7 @@ Menjelaskan pernyataan masalah latar belakang:
 Menjelaskan tujuan dari pernyataan masalah:
 - Mengimplementasikan machine learning dengan tujuan mengklasifikasikan potensi serangan jantung
 - Mencegah terjadinya serangan jantung dengan pengambilan keputusan yang terbaik menggunakan machine learning
+- Membandingkan akurasi dan F1-Score dari tiap model untuk menentukan model terbaik
 
 
 
@@ -98,9 +99,10 @@ Pada pembuatan model ini terdapat beberapa paramater yang digunakan, diantaranya
 - Decision Tree menggunkana paramater criterion='entropy',splitter='best', max_depth=4, min_samples_split=4, min_samples_leaf=2, max_features=None, random_state=42
 - SVM menggunkan paramater C=0.5, kernel='rbf', degree=3, gamma='scale', probability=True, random_state=42
 
-Memanggil library yang berisi algritma KNN, Random Forest, dan AdaBoost
+Memanggil library yang berisi algritma KNN, Random Forest, Decision Tree dan SVM
 
-![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/LibMod.PNG "m1")
+![LibMod](https://github.com/user-attachments/assets/18c59b3f-1f5b-47bb-9838-eb92e1602fcf)
+
 
 Deklarasi model dan penggunaan paramater
 
@@ -108,7 +110,7 @@ Deklarasi model dan penggunaan paramater
 ![DT](https://github.com/user-attachments/assets/d74097be-7aa3-45be-948c-293c1bd9541e)
 
 
-Memasukkan data pada model atau algoritma yang telah dipanggi
+Memasukkan data pada model atau algoritma yang telah dipanggil
 
 ![Print](https://github.com/user-attachments/assets/49da7207-00ef-4683-8c1c-226115d7d042)
 
@@ -147,7 +149,7 @@ Random Forest memiliki nilai tinggi di semua metrik, accuracy 0.99, Precision 0.
 
 3. Decision Tree
 
-Decision Tree memiliki hasil yang hampir identik dengan Random Forest, juga ada kemungkinan terjadinya overfitting, akurasi Decision Tree 0.99, precision 98, recall 1.00, F1-score 0.9
+Decision Tree memiliki hasil yang hampir identik dengan Random Forest, juga ada kemungkinan terjadinya overfitting, akurasi Decision Tree 0.99, precision 0.98, recall 1.00, F1-score 0.99
 
 4. SVM
 
