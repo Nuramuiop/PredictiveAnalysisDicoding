@@ -32,8 +32,7 @@ Menjelaskan tujuan dari pernyataan masalah:
         - AdaBoost
 
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
-Data ini berasal dari kaggle
+Data ini berasal dari [kaggle](https://www.kaggle.com/datasets/fatemehmohammadinia/heart-attack-dataset-tarik-a-rashid)
 
 Informasi mengenai dataset:
 - Dataset ini dikumpulkan di rumah sakit Zheen di Erbil, Iraq, mulai dari Januari 2019 sampai Mei 2019
