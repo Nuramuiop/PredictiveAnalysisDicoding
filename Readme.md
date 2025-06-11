@@ -112,7 +112,7 @@ Deklarasi model dan penggunaan paramater
 
 Memasukkan data pada model atau algoritma yang telah dipanggil
 
-![Print](https://github.com/user-attachments/assets/49da7207-00ef-4683-8c1c-226115d7d042)
+![lat](https://github.com/user-attachments/assets/64656bbe-99bf-446c-ace4-26a01dce8238)
 
 
 ## Evaluation
