@@ -78,12 +78,11 @@ bekerja dengan mencari hyperplane yang optimal untuk memisahkan data ke dalam ke
 
 Memanggil library yang berisi algritma KNN, Random Forest, dan AdaBoost
 
-![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Lib.PNG "lib")
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/LibMod.PNG "m1")
 
 Memasukkan data pada model atau algoritma yang telah dipanggi
 
-![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Call1.PNG "c1")
-![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Call2.PNG "c2")
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Model.PNG "m2")
 
 ## Evaluation
 Metrik evaluasi yang digunakan adalah Accuracy, Precission, Recall, F1-Score
@@ -103,15 +102,28 @@ Recall adalah metrik yang mengukur seberapa baik model dapat menangkap semua con
 
 F1-Score adalah metrik yang menggabungkan presisi dan recall menjadi satu nilai tunggal yang mempertimbangkan keduanya
 
-![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Call1.PNG "c1")
+![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Call3.PNG "c1")
 ![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/Call2.PNG "c2")
 ![alt text](https://github.com/Nuramuiop/PredictiveAnalysisDicoding/blob/main/ResCall.PNG "ResC")
 
 
 **Hasil Model**
 1. KNN
+
+KNN memiliki akurasi 0.67, yang artinya model memiliki performa yang cukup rendah, precision dan recall relatif seimbang yang dapat diartikan model tidak akan terlalu bias dalam false positive dan false negative, secara keseluruhan model tidak cocok untuk dataset ini karena KNN terlalu sensitif terhadap skala dan distribusi data 
+
 2. Random Forest
+
+Random Forest memiliki nilai tinggi di semua metrik, accuracy 0.99, Precision 0.98, Recall, 1.00. F1-score 0.99,hal ini menunjukan bahwa model sangat baik dalam menangkap data namun perlu diperiksa atau diperhatikan bahwa ada kemungkinan model mengalami overfitting
+
 3. Decision Tree
+
+Decision Tree memiliki akurasi yang rendah 0.68, precision 0.67, recall 0.91, dikarenakan recall dan precision tidak seimbang akan ada kemungkinan bias ketika model digunakan
+
 4. SVM
+
+SVM memiliki hasil yang hampir identing dengan Random Forest, juga ada kemungkinan terjadinya overfitting, akurasi SVM 0.99, precision 98, recall 1.00, F1-score 0.99
+
+Rekomendasi penggunaan model, gunakan model Random Forest meskipun perlu adanya pengecekan kembali untuk menganalisa terjadinya overfitting
 
 
